@@ -16,7 +16,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "version": "conventional-changelog -i changelog.md -s -r 0 && git commit -am \"build: update changelog\"",
+    "version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md",
     "test": "testcafe all:headless test/e2e/test.js"
   },
   "files": [
