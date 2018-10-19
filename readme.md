@@ -20,7 +20,7 @@ $ npm install input-is-empty
 import InputIsEmpty from 'input-is-empty';
 
 const htmlInputElement = document.querySelector('input-selector');
-const input = new InputIsEmpty(htmlInputElement, {/* options */});
+new InputIsEmpty(htmlInputElement, {/* options */});
 
 ```
 
