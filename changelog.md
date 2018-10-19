@@ -1,5 +1,14 @@
+## <small>0.0.4 (2018-10-19)</small>
+
+* docs: fix badges for appveyor ([d21f15c](https://github.com/scrum/input-is-empty/commit/d21f15c))
+* docs: fix example ([55efdab](https://github.com/scrum/input-is-empty/commit/55efdab))
+
+
+
 ## <small>0.0.3 (2018-10-19)</small>
 
+* 0.0.1 ([e41f668](https://github.com/scrum/input-is-empty/commit/e41f668))
+* 0.0.3 ([290b59d](https://github.com/scrum/input-is-empty/commit/290b59d))
 * ci: remove start on server ([d0f757a](https://github.com/scrum/input-is-empty/commit/d0f757a))
 * ci: try fix for travis ([3d52bfb](https://github.com/scrum/input-is-empty/commit/3d52bfb))
 * test: change from local to server ([7422e37](https://github.com/scrum/input-is-empty/commit/7422e37))
@@ -16,7 +25,6 @@
 * style: according eslint ([f0da65e](https://github.com/scrum/input-is-empty/commit/f0da65e))
 * style: indent according eslint ([cd10d4e](https://github.com/scrum/input-is-empty/commit/cd10d4e))
 * docs: add badges appveyor ([06cd848](https://github.com/scrum/input-is-empty/commit/06cd848))
-* 0.0.1 ([e41f668](https://github.com/scrum/input-is-empty/commit/e41f668))
 * feat: init ([6c3fdde](https://github.com/scrum/input-is-empty/commit/6c3fdde))
 
 
