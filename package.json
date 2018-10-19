@@ -17,7 +17,7 @@
   },
   "scripts": {
     "version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md",
-    "test": "testcafe all test/e2e/test.js --app \"http-server ./ -s\""
+    "test": "testcafe all test/e2e/test.js"
   },
   "files": [
     "src/"
@@ -42,7 +42,6 @@
     "eslint-plugin-markdown": "^1.0.0-beta.7",
     "eslint-plugin-testcafe": "^0.2.1",
     "eslint-plugin-unicorn": "^5.0.0",
-    "http-server": "^0.11.1",
     "husky": "^1.1.2",
     "lint-staged": "^7.2.2",
     "rimraf": "^2.6.1",
