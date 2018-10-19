@@ -43,7 +43,7 @@ new InputIsEmpty(htmlInputElement, {/* options */});
         import InputIsEmpty from 'input-is-empty';
 
         const htmlInputElement = document.querySelector('input');
-        const input = new InputIsEmpty(htmlInputElement);
+        new InputIsEmpty(htmlInputElement);
     </script>
 </body>
 </html>
