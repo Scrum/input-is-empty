@@ -1,7 +1,7 @@
 # input-is-empty
 > Sets boolean data attribute if field is empty.
 
-[![Travis Build Status](https://img.shields.io/travis/Scrum/input-is-empty/master.svg?style=flat-square&label=unix)](https://travis-ci.org/Scrum/input-is-empty)[![npm version](https://img.shields.io/npm/v/input-is-empty.svg?style=flat-square)](https://www.npmjs.com/package/input-is-empty)[![Dependency Status](https://david-dm.org/gitscrum/input-is-empty.svg?style=flat-square)](https://david-dm.org/scrum/input-is-empty)[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/xojs/xo)
+[![Travis Build Status](https://img.shields.io/travis/Scrum/input-is-empty/master.svg?style=flat-square&label=unix)](https://travis-ci.org/Scrum/input-is-empty)[![AppVeyor Build Status](https://img.shields.io/appveyor/ci/Scrum/input-is-empty/master.svg?style=flat-square&label=windows)](https://ci.appveyor.com/project/Scrum/input-is-empty)[![npm version](https://img.shields.io/npm/v/input-is-empty.svg?style=flat-square)](https://www.npmjs.com/package/input-is-empty)[![Dependency Status](https://david-dm.org/gitscrum/input-is-empty.svg?style=flat-square)](https://david-dm.org/scrum/input-is-empty)[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/xojs/xo)
 
 [![npm downloads](https://img.shields.io/npm/dm/input-is-empty.svg?style=flat-square)](https://www.npmjs.com/package/input-is-empty)[![npm](https://img.shields.io/npm/dt/input-is-empty.svg?style=flat-square)](https://www.npmjs.com/package/input-is-empty)
 
@@ -20,7 +20,7 @@ $ npm install input-is-empty
 import InputIsEmpty from 'input-is-empty';
 
 const htmlInputElement = document.querySelector('input-selector');
-const input = new InputIsEmpty(htmlInputElement, {/* options */});
+new InputIsEmpty(htmlInputElement, {/* options */});
 
 ```
 
