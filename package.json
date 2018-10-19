@@ -37,6 +37,7 @@
     "eslint-plugin-dependencies": "^2.4.0",
     "eslint-plugin-html": "^4.0.5",
     "eslint-plugin-markdown": "^1.0.0-beta.7",
+    "eslint-plugin-testcafe": "^0.2.1",
     "eslint-plugin-unicorn": "^5.0.0",
     "http-server": "^0.11.1",
     "husky": "^1.0.0-rc.13",
@@ -52,18 +53,21 @@
     }
   },
   "lint-staged": {
-    "{src,test}/**/*.js": "eslint",
+    "src": "eslint",
+    "test": "eslint",
     "*.md": "eslint"
   },
   "eslintConfig": {
     "parser": "babel-eslint",
     "plugins": [
+      "testcafe",
       "dependencies",
       "html",
       "unicorn",
       "markdown"
     ],
     "extends": [
+      "plugin:testcafe/recommended",
       "plugin:unicorn/recommended",
       "xo"
     ],
