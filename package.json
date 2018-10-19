@@ -1,6 +1,6 @@
 {
   "name": "input-is-empty",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sets boolean data attribute if field is empty",
   "license": "MIT",
   "repository": "scrum/input-is-empty",
