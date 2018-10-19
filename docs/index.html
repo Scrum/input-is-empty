@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>input is empty</title>
+</head>
+<body>
+	<form accept-charset="utf-8">
+	    <input type="text" tabindex="1" placeholder="Enter something">
+	    is empty status <span id="status"></span>
+	</form>
+	<script type="module">
+	    import InputIsEmpty from '../src/input-is-empty.js';
+
+	    const htmlInputElement = document.querySelector('input');
+	    const input = new InputIsEmpty(htmlInputElement, {event: 'input'});
+
+	    const status = document.querySelector('#status')
+	    status.textContent = input.isEmpty;
+	    htmlInputElement.addEventListener('input', () => {
+	    	status.textContent = input.isEmpty;	
+	    });
+	    
+	</script>
+</body>
+</html>

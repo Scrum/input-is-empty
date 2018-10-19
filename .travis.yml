@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - v10
+
+dist: trusty
+sudo: required
+
+addons:
+  firefox: latest
+  apt:
+    sources:
+     - google-chrome
+    packages:
+     - google-chrome-stable fluxbox
