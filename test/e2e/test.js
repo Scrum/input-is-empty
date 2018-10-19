@@ -1,7 +1,7 @@
 import {Selector as selector} from 'testcafe';
 
 fixture('Getting Started')
-    .page('../../docs/index.html');
+    .page('http://localhost:8080/docs/index.html');
 
 test('Demo page open and element exists', async t => {
     const inputExists = selector('input').exists;

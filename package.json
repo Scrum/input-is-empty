@@ -17,7 +17,7 @@
   },
   "scripts": {
     "version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md",
-    "test": "testcafe all test/e2e/test.js"
+    "test": "testcafe all test/e2e/test.js --app \"http-server ./ -s\""
   },
   "files": [
     "src/"
@@ -50,7 +50,6 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm t",
       "pre-commit": "clinton && lint-staged",
       "commit-msg": "commitlint --extends=@commitlint/config-angular -e"
     }
